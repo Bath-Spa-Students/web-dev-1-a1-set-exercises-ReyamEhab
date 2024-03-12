@@ -1,18 +1,17 @@
 body{/* Styling for the body element */
     background-color: beige;/*the color of the webpage*/
     font-size: 20px;
+    
 }
-h1{/*styling for the h1*/
-    text-shadow: 2px 2px;/*To make a shadow for the text*/    
-    background-color: #FFC374;/*background color for the h1*/
-    font-family: cursive;/*type of the font*/
-    font-size: 32px;/*The font size can be defined by small-large..etc)or 32px - 40px*/
+h1{/*styling for the h1*/ 
+    background-color:burlywood;/*background color for the h1*/
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*type of the font*/
+    font-size: 30px;/*The font size can be defined by small-large..etc)or 32px - 40px*/
     text-align: center;
 }
 h2{/*styling for the h2*/
-    text-shadow: 2px 2px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;/*type of the font*/
-    background-color: #FFC374;/*background color for the h1*/
+    background-color:burlywood;/*background color for the h1*/
 }
 input{
     size: 100px;
@@ -24,7 +23,6 @@ justify-content: center;/*Aligns flex items along the center of the main axis*/
 margin: auto;/*Centers the main element horizontally*/
 }
 .logo{ 
-  
     display: block;
     margin-left:auto;
     margin-right: auto;
