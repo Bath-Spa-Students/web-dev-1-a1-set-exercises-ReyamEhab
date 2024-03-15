@@ -1,0 +1,76 @@
+/* stylesheet for users reviews page*/
+/*StyleSheet for cast page*/
+/* StyleSheet for storyline page*/
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: lightgray;
+  }
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: white;
+  }
+  form.example input[type=text] {
+    padding: 10px;/*used to create space around an element's content, inside of any defined borders.*/
+    font-size: 17px;/* size of the text*/
+    border: 1px solid grey;/* the outline for the search bar*/
+    float: left;/* the position of search bar*/
+    width: 80%; /* the width of search bar*/
+    background: #f1f1f1;/*the color that inside the search bar*/
+  }
+  form.example button {
+    width: 18%;/* the width of the submit bar*/
+    padding: 10px;
+    background: #508D69;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: lightgray;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .header {
+    padding: 10px;
+    text-align: center;
+    background: #508D69;
+  }
+  .card1 {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-style: solid;
+  }
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background:  #333;
+    margin-top: 20px;
+  }
+  .copyright{
+    text-align: center;
+  }

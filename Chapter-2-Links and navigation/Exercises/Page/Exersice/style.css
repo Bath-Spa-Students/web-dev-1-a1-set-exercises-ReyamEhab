@@ -1,0 +1,152 @@
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: rgb(64, 119, 64);
+  }
+  .header {
+    padding: 10px;
+    text-align: center;
+    background:  rgb(137, 234, 145);
+  }
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-style: solid;
+  }
+  .card1 {
+    border-style: solid;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .card2 {
+    border-style: solid;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .card3 {
+    border-style: solid;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .card6 {
+    border-style: solid;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .card5 {
+    border-style: solid;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .card7 {
+    border-style: solid;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .card8 {
+    border-style: solid;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: white;
+  }
+  form.example input[type=text] {
+    padding: 10px;/*used to create space around an element's content, inside of any defined borders.*/
+    font-size: 17px;/* size of the text*/
+    border: 1px solid grey;/* the outline for the search bar*/
+    float: left;/* the position of search bar*/
+    width: 80%; /* the width of search bar*/
+    background: #f1f1f1;/*the color that inside the search bar*/
+  }
+  form.example button {
+    width: 10%;/* the width of the submit bar*/
+    padding: 10px;
+    background:rgb(137, 234, 145);
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: rgb(132, 230, 132);
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .parent{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .home{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background:  #333;
+    margin-top: 20px;
+  }
+  .copyright{
+    text-align: center;
+  }
+  
