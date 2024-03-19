@@ -1,0 +1,39 @@
+header {
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+body{
+    font-family: initial;
+    background-color:#C69774/* the color of the background*/
+}
+img {
+    filter: sepia(100%);/* greyscale to make the image black & white drop-shadow to make the image have a shadow & grey the color of the shadow*/
+}
+
+h3{
+    color: white;
+    border-color: burlywood;
+    border-style:double;
+    text-align: center;
+}
+footer{
+    color: white;
+    text-align: center;
+}
