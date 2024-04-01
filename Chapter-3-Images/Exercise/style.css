@@ -23,9 +23,13 @@ body{
     font-family: initial;
     background-color:#C69774/* the color of the background*/
 }
-img {
-    filter: sepia(100%);/* greyscale to make the image black & white drop-shadow to make the image have a shadow & grey the color of the shadow*/
+.image1 {
+  filter: sepia(100%);/* greyscale to make the image black & white drop-shadow to make the image have a shadow & grey the color of the shadow*/
 }
+.image2 {
+  filter: saturate(20%);
+}
+.image3 {filter: contrast(180%);}
 
 h3{
     color: white;
