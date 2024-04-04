@@ -1,0 +1,18 @@
+#A{/*<box-shadow> applies shodow for the box*/
+    border-color: purple;
+    box-shadow: 10px 10px 5px red; 
+}
+#B{
+    box-shadow: 10px 10px 5px grey inset; border-color: green;
+}
+#C{
+    border-radius: 40px;/* to make the box have curved corners*/
+    box-shadow: 0px 0px 0px 5px orange,
+    0px 0px 0px 15px blue, 
+    0px 0px 0px 25px red, 
+    0px 0px 0px 35px green;
+}
+#D{
+    border-color:darkred; /*the color of the border*/
+    text-shadow: 5px 5px black/*<text-shadow> applies shodow for the text*/
+}
