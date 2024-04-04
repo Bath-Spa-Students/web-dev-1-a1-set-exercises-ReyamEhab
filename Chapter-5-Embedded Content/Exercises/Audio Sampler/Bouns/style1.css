@@ -1,0 +1,60 @@
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.sampler-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.audio-samples {
+  width: 60%;
+}
+
+.text-to-speech {
+  width: 35%;
+}
+
+.samples {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sample {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.sample h3 {
+  margin-top: 0;
+}
+
+.sample audio {
+  width: 100%;
+}
+
+.navigation {
+  margin-top: 20px;
+}
+
+.nav-button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #45a049;
+}
