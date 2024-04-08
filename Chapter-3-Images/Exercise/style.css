@@ -1,0 +1,46 @@
+ 
+header {
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+body{
+    font-family: initial;
+    background-color:#C69774/* the color of the background*/
+}
+.image1{
+filter: sepia(100%);
+}
+.image2{
+    filter: grayscale(100%);
+}
+.image3{
+    filter: opacity(40%);
+}
+
+h3{
+    color: white;
+    border-color: burlywood;
+    border-style:double;
+    text-align: center;
+}
+footer{
+    color: white;
+    text-align: center;
+}
