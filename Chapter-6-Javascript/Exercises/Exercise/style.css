@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif; /* Set font family */
+    background-color: lightcoral; /* Set background color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Set the height to 100% of viewport height */
+  }
+  
+.petrol {
+    background-color: lightpink; /* Set background color */
+    padding: 20px; /* Add padding */
+    border-radius: 8px; /* Add border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    text-align: center; /* Center align content */
+}
+
+img {
+    width: 400px; /* Set width */
+    height: 200px; /* Set height */
+    margin-top: 50px; /* Add margin at the top */
+}
+
+input[type="number"] {
+    width: 100px; /* Set width */
+    padding: 10px; /* Set padding */
+    margin-bottom: 10px; /* Add margin at the bottom */
+    border: 1px solid #ccc; /* Set border */
+    border-radius: 5px; /* Add border radius */
+    outline: none; /* Remove outline */
+}
+
+button {
+    padding: 10px 20px; /* Set padding */
+    background-color: purple; /* Set background color */
+    color: #fff; /* Set text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer; /* Set cursor to pointer */
+    transition: background-color 0.3s; /* Add transition effect */
+}
+
+button:hover {
+    background-color: darkgrey; /* Change background color on hover */
+}
+
+p {
+    margin-top: 20px; /* Add margin at the top */
+}

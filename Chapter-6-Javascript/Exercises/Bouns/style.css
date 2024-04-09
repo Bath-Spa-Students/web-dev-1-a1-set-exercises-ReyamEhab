@@ -1,0 +1,56 @@
+/* Styles for the body */
+body {
+    font-family: Arial, sans-serif; /* Set the font family */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Set the height to 100% of viewport height */
+    background-color: black; /* Set background color */
+    color: wheat; /* Set text color */
+  }
+  
+  /* Styles for the game container */
+  .game {
+    text-align: center; /* Center align content */
+  }
+  
+  /* Styles for the RGB value display */
+  #rgbValue {
+    font-size: 24px; /* Set font size */
+    margin-bottom: 20px; /* Add space below */
+  }
+  
+  /* Styles for the color options */
+  .option {
+    display: inline-block; /* Display as inline block */
+    margin: 10px; /* Add margin */
+    width: 100px; /* Set width */
+    height: 100px; /* Set height */
+    border-radius: 50%; /* Make it a circle */
+    cursor: pointer; /* Set cursor to pointer */
+  }
+  
+  /* Styles for the message display */
+  #message {
+    margin-top: 20px; /* Add space above */
+  }
+  
+  /* Styles for the retry button */
+  button {
+    margin-top: 20px; /* Add space above */
+    padding: 10px 20px; /* Set padding */
+    background-color: lightcoral; /* Set background color */
+    color: #fff; /* Set text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Add border radius */
+    cursor: pointer; /* Set cursor to pointer */
+    transition: background-color 0.3s; /* Add transition effect */
+  }
+  
+  /* Hover styles for the button */
+  button:hover {
+    background-color: darkorchid; /* Change background color on hover */
+  }
+  

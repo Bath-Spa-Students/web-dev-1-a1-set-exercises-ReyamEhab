@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> <!-- Set character encoding to UTF-8 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configure viewport for responsiveness -->
+  <title>Petrol Calculator</title> <!-- Set the title of the page -->
+  <link rel="stylesheet" href="style.css" type="text/css" /> <!-- Link to external CSS file -->
+  <script src="index.js"></script> <!-- Link to external JavaScript file -->
+</head>
+<body>
+  <img src="petro.png" alt="petrolCost"> <!-- Image tag for petrolCost -->
+  <div class="petrol">
+    <h2>Petrol Calculator</h2> <!-- Heading for the calculator -->
+    <label for="petrolCost">Cost per liter (﹩):</label> <!-- Label for petrol cost input -->
+    <input type="number" id="petrolCost" min="0" step="0.01" value="1.72"><br> <!-- Input field for petrol cost -->
+    <label for="liters">Liters purchased:</label> <!-- Label for liters input -->
+    <input type="number" id="liters" min="0" step="0.01" value="0"><br> <!-- Input field for liters -->
+    <button onclick="calculateTotal()">Calculate</button> <!-- Button to trigger calculation -->
+    <p id="totalCost">Total Cost: ﹩0.00</p> <!-- Paragraph tag to display total cost -->
+  </div>
+</body>
+</html>
